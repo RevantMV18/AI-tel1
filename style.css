@@ -1,0 +1,129 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+    background: black;
+    background-size: cover;
+    background-repeat: none;  
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin-right: 100px;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.box1{
+    background-color: rgb(218, 71, 71);
+    border-color: rgb(218, 71, 71);
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    color: rgb(247, 152, 152);
+    font-weight: 30px;
+    font-size: 40px;
+    padding-bottom: 90px;
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    top: 105px;
+    left: 4rem;
+    cursor: pointer;
+    transition: width 1s;
+    padding-right: 100px;
+}
+#box1{transition-timing-function: ease;}
+.box1:hover{
+    box-shadow: 10px 10px 50px rgb(255, 0, 0);
+    color: white;
+    width: 300px;
+}
+.box2{
+    background-color: rgb(128, 128, 253);
+    border-color: rgb(128, 128, 253);
+    height: 150px;
+    width: 150px;
+    color: rgb(180, 180, 199);
+    border-radius: 10px;
+    font-weight: 1px;
+    font-size: 25px;
+    padding-top: 110px;
+    font-family: 'Open Sans', sans-serif;
+    position:relative;
+    top: 362px;
+    right: 89px;
+    cursor: pointer;
+    transition: width 1s;
+}
+#box2{transition-timing-function: ease;}
+.box2:hover{
+    box-shadow: 10px 10px 50px rgb(4, 0, 255);
+    color: white;
+    width: 300px;
+}
+.green{
+    background-color: rgb(62, 185, 62);
+    border-color: rgb(62, 185, 62);
+    height: 150px;
+    width: 150px;
+    color: rgb(6, 94, 6);
+    border-radius: 10px;
+    font-weight: 40px;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    right:4rem;
+    top: 140px;
+    cursor: pointer;
+    transition: width 1s;
+}
+#green{transition-timing-function: ease;}
+.green:hover{
+    box-shadow: 10px 10px 50px rgb(9, 255, 0);
+    color: white;
+    width: 300px;
+}
+.yellow{
+    background-color: rgb(232, 222, 109);
+    border-color: rgb(232, 222, 109);
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    color: rgb(236, 230, 167);
+    font-weight: 30px;
+    font-size: 40px;
+    padding-bottom: 90px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 270px;
+    right: 220px;
+    cursor: pointer;
+}
+.yellow:hover{
+    box-shadow: 10px 10px 50px rgb(238, 255, 0);
+    color: white;
+}
+.phone{    
+    width: 500px;
+    position: relative;
+    right: -900px;
+    bottom: 110px
+}
+h1{
+    color: white;
+    font-size: 100px; 
+    margin-left: 70px;
+    position: relative;
+    bottom: 340px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100px;
+}
